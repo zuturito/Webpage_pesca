@@ -42,8 +42,8 @@ header .menu {
 
 header .menu a {
   color: white;
-  font-size: 13px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: bold;
   display: inline-block;
   margin: 40px 20px;
   text-decoration: none;
@@ -277,6 +277,14 @@ header .textos h3 {
 .main .mapa iframe {
   width: 100%;
   max-height: 600px;
+}
+
+/*--- Graficas --- */
+.contenedor__graficas{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 /* ----- ----- FOOTER ----- ----- */
